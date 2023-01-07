@@ -25,7 +25,6 @@
 # stop chatter
 sink("/dev/null")
 
-# test
 # make sure tuneR and stats are installed
 is.installed <- function(mypkg) is.element(mypkg, installed.packages()[,1]) 
 if(!is.installed("tuneR")) install.packages("tuneR")
